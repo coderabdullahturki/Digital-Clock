@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500;1,700&display=swap');
+
+*, html {
+    margin: 0;
+    padding: 0;
+    font-size: 125%;
+}
+
+body {
+    background: #badc58;
+    font-family: 'Asap', sans-serif;
+}
+.flex {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flex .clock {
+    color: #000;
+    font-size: 5.5rem;
+    text-align: center;
+    font-weight: 700;
+}
+@media only screen and (max-width:500px) {
+    .flex .clock {
+        font-size: 125%;
+    }
+}
